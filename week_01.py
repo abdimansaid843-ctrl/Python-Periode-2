@@ -1,8 +1,11 @@
 
 # Player info
 player_name = input("What is your name? ")
+print(f"Welcome to the Fantasy Item Winkel, {player_name}!")
 player_gold = 100
+print(f"You have {player_gold} gold to spend.")
 inventory = []
+print("Your inventory is currently empty.")
 
 # winkel items
 items = ["Sword", "Shield", "Potion", "Bow"]
